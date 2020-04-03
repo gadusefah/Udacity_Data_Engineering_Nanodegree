@@ -1,0 +1,11 @@
+PG_MODE=primary
+PG_PRIMARY_USER=postgres
+PG_PRIMARY_PASSWORD=admin
+
+PG_DATABASE=sparkifydb
+PG_USER=sparkifydb
+PG_PASSWORD=sparkifydb
+
+PG_ROOT_PASSWORD=postgres
+
+PG_PRIMARY_PORT=5432

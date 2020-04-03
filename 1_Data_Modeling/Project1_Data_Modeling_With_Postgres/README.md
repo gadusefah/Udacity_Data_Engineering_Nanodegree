@@ -46,4 +46,20 @@ In addition to the data files, the project workspace includes six files:
 * Build ETL processes using etl.ipynb
 * Build ETL pipeline using etl.py
 
+## **How To Run This Project**
+I have included the pipfile and postgres_docker_compose.sh script to help create a local environment.
+
+```python
+pip install pipenv
+pipenv install
+pipenv shell
+python create_tables.py
+python etl.py
+
+jupyter notebook
+
+```
+
+Open the **test.ipynb** to query the database.
+
 
